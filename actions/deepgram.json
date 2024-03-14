@@ -1,0 +1,163 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+      "title": "Deepgram API",
+      "description": "API for interacting with Deepgram's speech recognition services.",
+      "version": "v1.0.0"
+    },
+    "servers": [
+      {
+        "url": "https://api.deepgram.com/v1"
+      }
+    ],
+    "paths": {
+      "/listen": {
+        "post": {
+          "description": "Process audio content with Deepgram's speech recognition.",
+          "operationId": "processAudio",
+          "parameters": [
+            {
+              "name": "smart_format",
+              "in": "query",
+              "description": "Enables smart formatting.",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "punctuate",
+              "in": "query",
+              "description": "Adds punctuation to transcript.",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "paragraphs",
+              "in": "query",
+              "description": "Formats transcript into paragraphs.",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "utterances",
+              "in": "query",
+              "description": "Breaks transcript into utterances.",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "sentiment",
+              "in": "query",
+              "description": "Whether or not sentiment should be detected",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "redact",
+              "in": "query",
+              "description": "Redacts specified types from transcript.",
+              "required": false,
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "name": "diarize",
+              "in": "query",
+              "description": "Enables speaker diarization.",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "summarize",
+              "in": "query",
+              "description": "Applies summarization to the transcript.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "detect_topics",
+              "in": "query",
+              "description": "Enables topic detection.",
+              "required": false,
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "language",
+              "in": "query",
+              "description": "Specifies the language of the audio.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "model",
+              "in": "query",
+              "description": "Specifies the model to be used for transcription.",
+              "required": false,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AudioContent"
+                }
+              }
+            },
+            "required": true
+          },
+          "security": [
+            {
+              "TokenAuth": []
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "AudioContent": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "URL of the audio file to process."
+            }
+          },
+          "required": [
+            "url"
+          ]
+        }
+      },
+      "securitySchemes": {
+        "TokenAuth": {
+          "type": "apiKey",
+          "in": "header",
+          "name": "Authorization"
+        }
+      }
+    }
+  }
