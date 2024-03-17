@@ -1,0 +1,231 @@
+### ACME Communications - Support Team QA Checklist - Guidance
+
+### Did Agent State Their Name?
+- **Corresponding Value:** Customer-Centric Approach
+- **Yes/No?:** 
+- **Explanation:** The agent's self-introduction sets the stage for a personal and engaging interaction.
+- **Gauging Compliance:**
+  1. Review call recordings to check if the agent introduced themselves.
+  2. Look for customer acknowledgments of the agent’s name in the conversation.
+  3. Check for consistency in agent introduction across multiple calls.
+  4. Monitor customer feedback mentioning agent personalization.
+  5. Include a question in post-call surveys about the clarity of agent introduction.
+  6. Audit chat transcripts for agent's name introduction.
+  7. Evaluate the warmth and friendliness of the introduction during the call.
+  8. Assess if the agent reintroduces themselves after a hold or transfer.
+  9. Listen for a professional and clear enunciation of the name.
+  10. Confirm if the agent also provides their direct extension or contact information if applicable.
+
+### Did Agent State Their Dept?
+- **Corresponding Value:** Customer-Centric Approach
+- **Yes/No?:** 
+- **Explanation:** Stating the department helps the customer understand the agent’s expertise.
+- **Gauging Compliance:**
+  1. Check recordings for specific department mentions at the beginning of calls.
+  2. Evaluate customer responses for signs of understanding the agent's role.
+  3. Look for department references when transferring calls.
+  4. Verify if email correspondence includes the agent’s department signature.
+  5. Analyze the context in which the department is mentioned for appropriateness.
+  6. Monitor if the department is stated clearly and confidently.
+  7. Review if agents are stating the correct department for their specialization.
+  8. Ensure department mention is part of the standard script in calls and emails.
+  9. Survey customers to see if they felt they spoke to the right department.
+  10. Examine if the department is stated upon customer request or confusion.
+
+### Ask or Verify Business Phone Number and Business?
+- **Corresponding Value:** Innovation and Proactivity
+- **Yes/No?:** 
+- **Explanation:** Accurate business details are critical for follow-up and customer validation.
+- **Gauging Compliance:**
+  1. Assess if the agent asked for or confirmed the phone number early in the call.
+  2. Monitor if verification is done politely without making the customer feel interrogated.
+  3. Look for callbacks made to the verified number to confirm issue resolution.
+  4. Check if customer records are updated with the verified number.
+  5. Review calls to ensure the agent repeats the number for confirmation.
+  6. Examine if verification steps are done each time, even with repeat customers.
+  7. Verify that agents are trained to handle situations where the customer cannot confirm their details.
+  8. Analyze the process followed when discrepancies in business details are found.
+  9. Ensure that verification is done in compliance with privacy standards.
+  10. Look for confirmation in writing for email or chat support where the customer provides their number.
+
+### Check to See if There is Existing Ticket?
+- **Corresponding Value:** Innovation and Proactivity
+- **Yes/No?:** 
+- **Explanation:** Checking for an existing ticket helps in providing continuous support.
+- **Gauging Compliance:**
+  1. Verify through ticketing systems if the agent checked for an existing ticket.
+  2. Confirm that agents ask customers about previous interactions or ticket numbers.
+  3. Ensure that agents use the customer’s phone number or email to search for tickets.
+  4. Review if agents document the check in their call or support notes.
+  5. Examine if agents link new issues with pre-existing tickets where relevant.
+  6. Check for agent follow-up on open tickets mentioned during the call.
+  7. Assess the ease with which agents navigate the ticketing system.
+  8. Audit if agents mention existing tickets when escalating issues.
+  9. Monitor the protocol for merging or updating tickets to avoid duplication.
+  10. Ensure that agents are verifying ticket details against customer provided information for accuracy.
+
+### Confirm Callback Number if Call Drops?
+- **Corresponding Value:** Customer-Centric Approach
+- **Yes/No?:** 
+- **Explanation:** A confirmed callback number ensures the conversation can continue without interruption.
+- **Gauging Compliance:**
+  1. Check for the agent’s confirmation of a callback number at the start of each call.
+  2. Evaluate if the agent reconfirms the number any time they suspect a call may drop.
+  3. Listen for a professional and respectful request for the callback
+
+ number.
+  4. Review cases where calls were dropped to see if customers were promptly called back.
+  5. Monitor if agents document the confirmed callback number in the system.
+  6. Ensure that agents are trained to handle situations when a customer is hesitant to provide their number.
+  7. Verify if callback procedures are followed in case of a dropped call.
+  8. Review if customers are informed about the callback procedure during the initial call.
+  9. Check if agents are verifying the callback number against the existing records for discrepancies.
+  10. Ensure callbacks are made on priority when a call drop occurs, showing customer respect and efficiency.
+
+### Confirm Email Address is Correct?
+- **Corresponding Value:** Customer-Centric Approach
+- **Yes/No?:** 
+- **Explanation:** A valid email address is crucial for sending service updates or follow-up information.
+- **Gauging Compliance:**
+  1. Observe if the agent requests the customer to spell out their email address for accuracy.
+  2. Verify if the agent sends a confirmation or test email while on the call.
+  3. Check for the agent's confirmation of receipt when sending information to the customer’s email.
+  4. Ensure that email addresses are verified against customer records for accuracy.
+  5. Review if agents ask for alternate contact methods if the email is incorrect or bounces back.
+  6. Look for documentation of the verified email address in customer interaction notes.
+  7. Assess the agent’s protocol in updating email information in the CRM system.
+  8. Monitor for any customer corrections or updates to their email during the interaction.
+  9. Check if agents clarify common mistakes in email addresses, like .com versus .net.
+  10. Ensure that any change to the email address is confirmed with the customer for authorization.
+
+### Record the Caller's Name?
+- **Corresponding Value:** Excellence and Quality Focus
+- **Yes/No?:** 
+- **Explanation:** Using the caller's name during the interaction fosters a connection and personalized service.
+- **Gauging Compliance:**
+  1. Listen for the agent's use of the customer’s name at least twice during the call.
+  2. Review if the customer’s name is correctly noted in the system for future reference.
+  3. Check if the agent asks for the correct pronunciation of the customer’s name.
+  4. Ensure that agents use the customer’s name to personalize the conversation.
+  5. Review chat transcripts to see if the agent addressed the customer by name.
+  6. Verify that the use of the customer’s name is natural and not overused.
+  7. Monitor if the customer’s name is used respectfully throughout the interaction.
+  8. Check if agents confirm the spelling of the customer’s name when it is uncommon.
+  9. Evaluate if the agent acknowledges and corrects themselves if they mispronounce the name.
+  10. Look for customer feedback that indicates they felt recognized and respected through the use of their name.
+
+### Checked to See if Caller Authorized to Make Change?
+- **Corresponding Value:** Integrity and Transparency
+- **Yes/No?:** 
+- **Explanation:** Ensuring authorization before making account changes is key for security and compliance.
+- **Gauging Compliance:**
+  1. Confirm that agents are asking for identification or security questions before proceeding with changes.
+  2. Review calls for the agent’s adherence to security protocols when authorization is in question.
+  3. Look for agents’ use of dedicated tools or systems to verify authorization status.
+  4. Ensure agents note the authorization check and result in the customer’s record.
+  5. Audit interactions for consistency in performing authorization checks.
+  6. Monitor agent training records to ensure they are updated on the latest security procedures.
+  7. Verify that any discrepancies in authorization are handled delicately and according to protocol.
+  8. Check for the agent's immediate escalation of issues when authorization cannot be confirmed.
+  9. Evaluate how agents handle situations where the caller is not authorized to make changes.
+  10. Review if agents explain to customers why authorization checks are necessary for transparency and trust-building.
+
+### Did Agent Actively Listen?
+- **Corresponding Value:** Excellence and Quality Focus
+- **Yes/No?:** 
+- **Explanation:** Active listening is essential for understanding and accurately addressing the customer’s needs.
+- **Gauging Compliance:**
+  1. Evaluate if the agent paraphrased customer concerns to demonstrate understanding.
+  2. Review calls for moments when the agent allowed the customer to speak without interruption.
+  3. Monitor if the agent asked follow-up questions based on the customer’s statements.
+  4. Check if the agent offered solutions or summaries that align with the customer’s initial problem.
+  5. Listen for empathetic responses or acknowledgment of the customer’s feelings.
+  6
+
+. Assess if the agent avoided jumping to conclusions or making assumptions.
+  7. Verify that the agent’s responses are relevant and on-topic, showing they’re engaged.
+  8. Look for pauses in the conversation that give the customer time to think or add more information.
+  9. Review the agent’s tone for signs of patience and attentiveness.
+  10. Evaluate customer feedback for mentions of feeling heard and understood.
+
+### Was the Agent Courteous?
+- **Corresponding Value:** Excellence and Quality Focus
+- **Yes/No?:** 
+- **Explanation:** Courtesy is the cornerstone of positive customer interaction and reflects professionalism.
+- **Gauging Compliance:**
+  1. Listen for polite language and a respectful tone throughout the interaction.
+  2. Review if the agent used proper greetings and closings in the call.
+  3. Check if the agent expressed gratitude for the customer’s business or patience.
+  4. Monitor if the agent remained polite even when dealing with difficult situations.
+  5. Evaluate if the agent showed respect for the customer’s time by addressing issues efficiently.
+  6. Observe if the agent’s body language (in video calls) reflected a courteous demeanor.
+  7. Review if the agent avoided interrupting the customer and waited their turn to speak.
+  8. Check for the consistent use of ‘please’ and ‘thank you’ in interactions.
+  9. Assess if the agent handled customer frustration with grace and professionalism.
+  10. Ensure that customer complaints about discourtesy are addressed immediately and effectively.
+
+### Was the Agent Empathetic?
+- **Corresponding Value:** Excellence and Quality Focus
+- **Yes/No?:** 
+- **Explanation:** Empathy builds rapport and trust, showing customers that ACME Communications cares about their experience.
+- **Gauging Compliance:**
+  1. Look for verbal cues that the agent is understanding the emotional context of the customer’s issue.
+  2. Review if the agent acknowledged the customer’s feelings and frustrations.
+  3. Monitor for active responses that align with the customer’s emotional state.
+  4. Check if the agent offered genuine apologies or consolation when appropriate.
+  5. Evaluate if the agent’s solutions were presented with consideration for the customer’s situation.
+  6. Observe if the agent provided extra assistance to customers expressing distress or confusion.
+  7. Verify if empathy was conveyed consistently, not just as a reaction to escalated situations.
+  8. Assess if the agent used empathetic language to connect with the customer on a personal level.
+  9. Look for follow-up actions that show the agent took the customer’s situation seriously.
+  10. Review customer feedback for specific mentions of feeling supported and understood by the agent.
+
+### Did the Agent Avoid Blaming Others?
+- **Corresponding Value:** Excellence and Quality Focus
+- **Yes/No?:** 
+- **Explanation:** Responsibility and accountability in resolving issues positively impact customer trust.
+- **Gauging Compliance:**
+  1. Evaluate if the agent focused on solutions rather than assigning blame for the issue.
+  2. Monitor conversations for language that maintains the company’s responsibility.
+  3. Review if the agent took ownership of resolving the issue within their capacity.
+  4. Check if the agent refrained from negative comments about other teams or individuals.
+  5. Assess if the agent communicated any necessary explanations without defensiveness.
+  6. Verify that the agent addressed the root cause of the problem, not just the symptoms or errors made by others.
+  7. Look for the agent's initiative in coordinating with other departments for issue resolution.
+  8. Ensure that any inter-departmental issues are handled internally and not exposed to the customer.
+  9. Observe if the agent acted as the face of ACME Communications, regardless of where the issue originated.
+  10. Review if the agent reassured the customer that the issue would be resolved regardless of its origin.
+
+### Asks Probing/Pertinent Questions?
+- **Corresponding Value:** Innovation and Proactivity
+- **Yes/No?:** 
+- **Explanation:** Asking the right questions is crucial to identify the customer’s issue and resolve it effectively.
+- **Gauging Compliance:**
+  1. Evaluate if the questions asked led to a better understanding of the problem.
+  2. Review if the agent avoided generic questions and tailored their approach to the individual case.
+  3. Monitor the flow of the conversation to see if questions were asked at appropriate times.
+  4. Check if the agent asked open-ended questions that prompted detailed responses.
+  5. Assess if the agent’s questions were direct and relevant to the customer’s concerns.
+  6. Verify that questions helped clarify the situation rather than causing further confusion.
+  7. Observe if the agent used the answers to guide their troubleshooting process effectively.
+  8. Ensure
+
+ that the agent asked for all necessary information upfront to avoid back-and-forth.
+  9. Review if the agent was able to ask follow-up questions based on the customer’s responses.
+  10. Evaluate customer feedback for any comments on the helpfulness and relevance of the agent’s questions. 
+
+### Uses Appropriate Wikis?
+- **Corresponding Value:** Humbly Confident/Continuous Improvement
+- **Yes/No?:** 
+- **Explanation:** Accessing and applying information from Wikis effectively showcases agent knowledge and resourcefulness.
+- **Gauging Compliance:**
+  1. Monitor if the agent referred to Wikis or knowledge bases during the call to provide accurate information.
+  2. Review if the agent used technical terms from Wikis correctly and with understanding.
+  3. Check if the agent was able to quickly find relevant information in the Wiki.
+  4. Assess if the agent applied the information from Wikis to resolve the customer's issue.
+  5. Verify that Wiki resources are up-to-date and that agents are trained on their usage.
+  6. Observe if the agent’s use of Wikis reduced the need for call transfers or escalations.
+  7. Ensure that agents are contributing to the Wikis when they encounter new issues or solutions.
+  8. Review the appropriateness of the Wiki content used in the context of the customer’s problem.
+  9. Check if the agent explained complex Wiki information in a way that the customer understood.
+  10. Evaluate if the agent provided additional Wiki resources or articles to the customer for self-help.
