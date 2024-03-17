@@ -108,10 +108,111 @@ Note: An error will be displayed if a user/org cap has been hit.
 
 OpenAI Actions are a way to interact with 3rd party APIs and services. In this example app, I'm reaching out to Deepgram (deepgram.com) to transcribe audio files and add sentiment analysis.
 
-- How to Build
+#### How to Build
 
-<img src="illustrations/Full_Config.jpg" alt="">
+TIP to create action specs from cURL. You can use ChatGPT to generate an OpenAPI 3.0 spec from a cURL request. Here's an example of what I did with my Deepgram cURL request:
 
+##### ChatGPT Prompt:
+
+>Build an open api 3.0 spec from this curl request. Make the output JSON
+>
+>curl --location --request POST 'https://api.deepgram.com/v1/listen' \
+>--header 'Authorization: Token 24583b976bb3bd0666364a510cdd3180b61b6b8f' \
+>--header 'Content-Type: application/json' \
+>--data-raw '{"url":"https://static.deepgram.com/examples/>en_NatGen_CallCenter_BethTom_CancelPhonePlan.wav"}'
+>
+>Ensure the components / schemas exists
+>
+>"components": {
+>      "schemas": {
+>
+>The output should contain no comment blocks
+
+##### Output:
+
+```
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Deepgram API",
+    "version": "1.0.0",
+    "description": "API for processing audio transcription requests."
+  },
+  "servers": [
+    {
+      "url": "https://api.deepgram.com/v1"
+    }
+  ],
+  "paths": {
+    "/listen": {
+      "post": {
+        "summary": "Transcribe audio from a provided URL",
+        "operationId": "transcribeAudio",
+        "tags": ["Transcription"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AudioTranscriptionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful transcription",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AudioTranscriptionResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AudioTranscriptionRequest": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL of the audio file to transcribe."
+          }
+        }
+      },
+      "AudioTranscriptionResponse": {
+        "type": "object",
+        "properties": {
+          "transcription": {
+            "type": "string",
+            "description": "Transcribed text from the audio file."
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization"
+      }
+    }
+  }
+}
+
+```
 
 
 - How to Test
@@ -126,6 +227,29 @@ https://www.youtube.com/watch?v=qzeaHm4J3bk
 Conversation starters are a way to guide the conversation with the GPT. They can be used to provide context, ask questions, or give the GPT a starting point for a conversation.
 
 <img src="illustrations/Conversation_Starters.jpg" alt="Conversation Starters Example">
+
+
+### The Full Picture
+
+<img src="illustrations/Full_Config.jpg" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
