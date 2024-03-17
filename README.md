@@ -97,8 +97,12 @@ Some examples of knowledge we use during this talk:
 ```
 
 Limitations:
-- Knowledge files are limited to 10MB in size.
-- Knowledge files are limited to 100,000 tokens.
+- GPTs are limited to 20 knowledge files.
+- All files uploaded to a GPT or a ChatGPT conversation have a hard limit of 512MB per file.
+- All text and document files uploaded to a GPT or to a ChatGPT conversation are capped at 2M tokens per file. This limitation does not apply to spreadsheets.
+- For images, there's a limit of 20MB per image.
+
+Note: An error will be displayed if a user/org cap has been hit. 
 
 ### Actions
 
