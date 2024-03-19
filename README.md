@@ -317,18 +317,16 @@ The `coreValueExamples` key should always be generated based on the `Core_Values
 
 ### Knowledge
 
-Once a file is uploaded and passed to the Assistant, OpenAI automates the whole RAG process that was usually custom-built by developers. They automatically chunk your documents, index and store the embeddings, and implement vector search to retrieve relevant content to answer user queries.
+Similar to Knowledge in custom GPTs, OpenAI wil store files for retreival upon running your Assistant. One major note is that this can get fairly pricey. The added convenience here is that once a file is uploaded and passed to the Assistant, OpenAI automates the whole RAG process that was usually custom-built by developers. They automatically chunk your documents, index and store the embeddings, and implement vector search to retrieve relevant content to answer user queries.
 
 https://platform.openai.com/docs/assistants/tools/knowledge-retrieval
 
+NOTE: If you're already using the Assistants API, you're likely going to be using a platform like Langchain for other functions, it may be more economical to use Langchain with other tools like PineconeDB, Astra DB etc. for knowledge retrieval.
 
 
+### Functions, Code Interperter and other Tools
 
-### Functions
-
-### Code Interperter
-
-
+https://platform.openai.com/docs/assistants/tools/code-interpreter
 
 
 ## Comparing Assistants to Custom GPTs
