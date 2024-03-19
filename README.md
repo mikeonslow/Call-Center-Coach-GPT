@@ -378,17 +378,6 @@ https://help.openai.com/en/articles/8798634-shared-links-faq-chatgpt-team-versio
 
 
 
-
-
-
-
-NOTES:
-
-
-
-Why?
-
-Sample Call: https://static.deepgram.com/examples/en_NatGen_CallCenter_BethTom_CancelPhonePlan.wav
-
+## FILES:
 
 Sample Call: https://static.deepgram.com/examples/en_NatGen_CallCenter_BethTom_CancelPhonePlan.wav
