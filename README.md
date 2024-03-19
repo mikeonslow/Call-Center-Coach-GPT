@@ -321,7 +321,17 @@ Once a file is uploaded and passed to the Assistant, OpenAI automates the whole 
 
 https://platform.openai.com/docs/assistants/tools/knowledge-retrieval
 
-### Comparing Assistants to Custom GPTs
+
+
+
+### Functions
+
+### Code Interperter
+
+
+
+
+## Comparing Assistants to Custom GPTs
 
 #### Pros:
 - You can use the OpenAI API to build chatbots that can be used in a variety of applications including web, mobile, and desktop applications
@@ -345,22 +355,22 @@ https://platform.openai.com/docs/assistants/tools/knowledge-retrieval
 - Limited to the ChatGPT interface
 - Limited to content window when API calls complete (ran into this many times)
 
-
-### Functions
-
-### Code Interperter
-
-
-
 ## Utilizing ChatGPT Team for Privacy and Other Benefits
 
 ### ChatGPT Team 
 
 https://openai.com/chatgpt/team
 
+- Access to GPT-4 with 32K context window
+- Share links to chat sessions within your team
 - Share GPTs with your team
 - Collaborate on GPTs with your team
-- Share links to chat sessions within your team
+- Tools like DALL·E 3, GPT-4 with Vision, Browsing, Advanced Data Analysis—with higher message caps
+- No training on your business data or conversations
+- Secure workspace for your team
+- Create and share custom GPTs with your workspace
+- Admin console for workspace and team management
+- Early access to new features and improvements
 
 ### FAQs
 
