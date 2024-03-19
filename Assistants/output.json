@@ -1,0 +1,95 @@
+{
+    "callDetails": {
+      "user": "Beth Idol",
+      "type": "Service cancellation",
+      "from": "Not provided",
+      "to": "Premier phone services",
+      "timeStart": "Not provided",
+      "timeEnd": "Not provided",
+      "duration": "Not provided"
+    },
+    "sentiment": {
+      "agent": "Positive",
+      "customer": "Mixed (Neutral to Negative)"
+    },
+    "agentPerformance": {
+      "greatWork": [
+        "Professional greeting and introduction",
+        "Empathy and understanding",
+        "Patience and thorough exploration of customer's concerns"
+      ],
+      "areasForImprovement": [
+        "Proactive solution offering could be improved",
+        "Speed in addressing the main concern could be enhanced"
+      ]
+    },
+    "coreValueExamples": [
+      "Innovation and Proactivity: Agent attempted to provide solutions and improve customer experience despite the cancellation request.",
+      "Integrity and Transparency: Agent was honest about the limitations of older devices.",
+      "Customer-Centric Approach: Agent continuously offered assistance and was empathetic towards the customer's issues."
+    ],
+    "qualityAssuranceTemplate": {
+      "questions": [
+        {
+          "Did Agent State Their Name?": "Yes"
+        },
+        {
+          "Did Agent state their dept?": "No"
+        },
+        {
+          "Ask or Verify business ph. number and business?": "No"
+        },
+        {
+          "Check to see if there is existing ticket?": "No"
+        },
+        {
+          "Confirm callback number if call drops?": "No"
+        },
+        {
+          "Confirm email address is correct?": "No"
+        },
+        {
+          "Record the caller's name?": "Yes"
+        },
+        {
+          "Checked to see if caller authorized to make change?": "No"
+        },
+        {
+          "Did Agent actively listen?": "Yes"
+        },
+        {
+          "Was the Agent courteous?": "Yes"
+        },
+        {
+          "Was the Agent empathetic?": "Yes"
+        },
+        {
+          "Did the Agent avoid blaming others?": "Yes"
+        },
+        {
+          "Asks probing/pertinent questions?": "Yes"
+        },
+        {
+          "Uses appropriate Wikis?": "No"
+        },
+        {
+          "If placed on hold, was correct procedure used?": "No"
+        },
+        {
+          "Requests and changes noted?": "Yes"
+        },
+        {
+          "If changes made, were they tested?": "No"
+        },
+        {
+          "Issue resolved or escalated appropriately?": "Yes"
+        },
+        {
+          "Did agent confirm notes and support type stayed intact?": "No"
+        },
+        {
+          "Did agent confirm anything else we can do for them?": "Yes"
+        }
+      ]
+    }
+  }

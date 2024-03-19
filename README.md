@@ -214,13 +214,14 @@ TIP to create action specs from cURL. You can use ChatGPT to generate an OpenAPI
 
 ```
 
+### How to Test
 
-- How to Test
-- Behavior of Actions
+You can test actions by clicking the "Test" button in the ChatGPT interface. This will allow you to test the action.
 
-More on actions: https://platform.openai.com/docs/assistants/tools/actions
+#### More on actions
+https://platform.openai.com/docs/assistants/tools/actions
 
-https://www.youtube.com/watch?v=qzeaHm4J3bk
+Helpful video on building OpenAI Actions that connect Zapier to ChatGPT: https://www.youtube.com/watch?v=qzeaHm4J3bk
 
 ### Conversatoin Starters (Prompts)
 
@@ -265,14 +266,17 @@ Well custom GPTs are powerful and helpful, custom GPTs are only part of the Chat
 
 ### Instructions
 
+Instructions in then Assistants API are used to customize how the Assistant behaves and executes its tasks. Here's an example of the custom GPT instructions used in the Call Center Coach GPT:
+
+```
+
+```
+
 ### Knowledge
 
 Once a file is uploaded and passed to the Assistant, OpenAI automates the whole RAG process that was usually custom-built by developers. They automatically chunk your documents, index and store the embeddings, and implement vector search to retrieve relevant content to answer user queries.
 
 https://platform.openai.com/docs/assistants/tools/knowledge-retrieval
-
-
-
 
 ### Comparing Assistants to Custom GPTs
 
@@ -284,6 +288,7 @@ https://platform.openai.com/docs/assistants/tools/knowledge-retrieval
 - More complex to build
 - Not available to publish in the OpenAI Explore GPTs interface
 - Costly compared to custom GPTs which are included with a ChatGPT Plus, Team or Enterprise subscription
+- No native "Web Browsing", you need to bring your own APIs for web scraping and other web-based interactions
 
 ### ChatGPT Custom GPTs
 
@@ -295,7 +300,7 @@ https://platform.openai.com/docs/assistants/tools/knowledge-retrieval
 
 #### Cons:
 - Limited to the ChatGPT interface
-- 
+- Limited to content window when API calls complete (ran into this many times)
 
 
 ### Functions
