@@ -1,4 +1,4 @@
-# Detroit Tech Watch - Build CustomGPTs and Assistants with OpenAI
+# MIDOTNET - Build CustomGPTs and Assistants with OpenAI
 
 Learn from Mike as he shares insights on developing CustomGPTs and AI Assistants using OpenAI's toolkit, focusing on practical applications like enhancing call center operations through quality assurance augmentation and maintaining data privacy with ChatGPT Team.
 
