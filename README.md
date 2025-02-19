@@ -117,7 +117,7 @@ TIP to create action specs from cURL. You can use ChatGPT to generate an OpenAPI
 >Build an open api 3.0 spec from this curl request. Make the output JSON
 >
 >curl --location --request POST 'https://api.deepgram.com/v1/listen' \
->--header 'Authorization: Token 24583b976bb3bd0666364a510cdd3180b61b6b8f' \
+>--header 'Authorization: Token <DEEPGRAM_TOKEN>' \
 >--header 'Content-Type: application/json' \
 >--data-raw '{"url":"https://static.deepgram.com/examples/>en_NatGen_CallCenter_BethTom_CancelPhonePlan.wav"}'
 >
