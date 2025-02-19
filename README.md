@@ -132,7 +132,7 @@ TIP to create action specs from cURL. You can use ChatGPT to generate an OpenAPI
 
 ```
 {
-  "openapi": "3.0.0",
+  "openapi": "3.1.0",
   "info": {
     "title": "Deepgram API",
     "version": "1.0.0",
